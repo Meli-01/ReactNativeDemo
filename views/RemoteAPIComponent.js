@@ -27,7 +27,7 @@ export default class RemoteAPIComponent extends Component {
     render() {
         return (
             <View style={{flex: 1, flexDirection: 'column', justifyContent: 'center'}}>
-                <Button title="Load data" onPress={this.loadData}/>
+                <Button title="Load data" onPress={this.loadData} color="green"/>
                 <Text style={{padding: 15, fontWeight: 'bold'}}>Weather for Bern</Text>
                 <Text style={{padding: 15}}>{this.state.weather}</Text>
                 <Text style={{padding: 15}}>{this.state.temp}</Text>

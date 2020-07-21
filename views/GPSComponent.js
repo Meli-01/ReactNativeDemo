@@ -20,6 +20,7 @@ export default class GPSComponent extends Component {
                 <Button
                     title="Load GPS Data"
                     onPress={this.loadData}
+                    color="green"
                 />
                 <Text style={{marginTop: 10, textAlign: "center"}}>{this.state.labelText}</Text>
             </View>

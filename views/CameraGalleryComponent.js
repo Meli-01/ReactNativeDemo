@@ -32,7 +32,7 @@ export default class CameraGalleryComponent extends Component {
         return (
             <View style={{flex: 1, flexDirection: 'column', justifyContent: 'center'}}>
                 <View style={{paddingBottom: 20}}>
-                    <Button title="Open Camera or Gallery" onPress={this.openImagePicker}/>
+                    <Button title="Open Camera or Gallery" onPress={this.openImagePicker} color="green"/>
                 </View>
                 <View style={{alignItems: "center"}}>
                     <Image

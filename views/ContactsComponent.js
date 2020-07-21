@@ -66,7 +66,7 @@ export default class ContactsComponent extends Component {
         return (
             <View style={{flex: 1, flexDirection: 'column', justifyContent: 'center'}}>
                 <View style={{paddingBottom: 10}}>
-                    <Button title="Load Contacts" onPress={this.requestPermissions}/>
+                    <Button title="Load Contacts" onPress={this.requestPermissions} color="green"/>
                 </View>
                 <FlatList
                     data={this.state.list}
